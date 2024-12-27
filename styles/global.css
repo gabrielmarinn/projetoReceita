@@ -22,3 +22,7 @@
     --heading2: 400/140% 24px "Alice", sans-serif;
     --paragraph: 400/140% 16px "Alice", sans-serif;
 }
+
+img {
+    border-radius: 16px;
+}
