@@ -50,6 +50,21 @@ img {
     border-radius: 16px;
 }
 
+main {
+    /*Adicionando espaçamento ao redor da caixa main*/
+    padding: 24px;
+}
+
+section + section {
+    /*Entre as caixas section adicionando uma margem entre a ultima e a anterior a ela. Por isso utilizado o margin-top*/
+    margin-top: 24px;
+}
+
+#about p + p {
+    /*Dentro da caixa about adicionando uma margem entre o paragrafo e o paragrafo anterior a ele. Por isso utilizado o margin-top*/
+    margin-top: 12px;
+}
+
 h1 {
     font: var(--heading1);
 }
@@ -58,6 +73,19 @@ h2 {
     font: var(--heading2);
 }
 
+p {
+    font: var(--paragraph);
+}
+
 h1, h2 {
+    /*Adicionando uma margem para separar os h1 e h2 do conteudo subsequente*/
+    margin-bottom: 4px;
     color: var(--text-color-primary);
 }
+
+ul {
+    /*Adicionando um espaçamento lateral na caixa ul*/
+    padding-left: 24px;
+    font: var(--paragraph);
+}
+
