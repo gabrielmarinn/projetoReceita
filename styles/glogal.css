@@ -1,0 +1,24 @@
+/*Reset CSS Layout*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Configuração root e adiconando variaveis*/
+
+:root {
+    /*Surface colors*/
+    --background-color: #573824;
+    --surface-color: #f0e8c2;
+
+    /*Text Colors*/
+    --text-color-primary: #291b1a;
+    --text-color-secondary: #573a37;
+    --text-color-on-bg: #f0e8c2;
+
+    /*Fonts*/
+    --heading1: 400/140% 40px "Alice", sans-serif;
+    --heading2: 400/140% 24px "Alice", sans-serif;
+    --paragraph: 400/140% 16px "Alice", sans-serif;
+}
